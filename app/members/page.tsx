@@ -3,9 +3,9 @@ import Link from "next/link";
 const members = [
   {
     tag: "K1nG_DZ",
-    role: "Founder · The Last Man Standing",
+    role: "Founder · The Navigator",
     emoji: "👑",
-    desc: "Built this clan from nothing. Somehow always makes it to the final circle. Somehow never wins. Morale would collapse without him. So would the Discord server.",
+    desc: "Always has a route to the final circle — usually straight through an enemy squad. Spends the whole match preaching patience and avoidance, then calls a rotation that drops the entire team into a hot zone. Gets us to the last circle more than anyone. Gets us killed there too.",
     color: "#c9a84c",
   },
   {
