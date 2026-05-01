@@ -19,7 +19,7 @@ const members = [
     tag: "Mixander",
     role: "Founder · The Last One Standing",
     emoji: "🐢",
-    desc: "Never dies in the fight because he's never actually in it. By the time he shows up, the gunfight is over, the zone has moved, and somehow he's still alive. Consistently last standing. Consistently late.",
+    desc: "Shows up to every gunfight right on time — if the fight started 45 seconds ago and everyone is already dead. The squad is screaming for backup, he responds 'on my way' from the other side of the map. Arrives with full health, full energy, and absolutely no idea what just happened. Loots the bodies. Calls it a win.",
     color: "#5865F2",
   },
   {
