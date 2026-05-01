@@ -13,8 +13,8 @@ const trackers = [
     color: "#c9a84c",
   },
   {
-    name: "Tracker.gg",
-    url: (tag: string) => `https://tracker.gg/pubg/profile/steam/${tag}/overview`,
+    name: "PUBG Report",
+    url: (tag: string) => `https://pubg.report/players/${tag}`,
     desc: "Detailed seasonal stats",
     color: "#4a7c3f",
   },
