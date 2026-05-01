@@ -1,8 +1,8 @@
 const members = [
-  { tag: "unclutchable", emoji: "👑" },
-  { tag: "zendii_.", emoji: "🗺️" },
-  { tag: "mixander", emoji: "🚗" },
-  { tag: "KurV", emoji: "🎒" },
+  { tag: "K1nG_DZ", emoji: "👑" },
+  { tag: "Zendii_", emoji: "🗺️" },
+  { tag: "Mixander", emoji: "🚗" },
+  { tag: "KurrV", emoji: "🎒" },
 ];
 
 const trackers = [

@@ -2,28 +2,28 @@ import Link from "next/link";
 
 const members = [
   {
-    tag: "unclutchable",
+    tag: "K1nG_DZ",
     role: "Founder · The Last Man Standing",
     emoji: "👑",
     desc: "Built this clan from nothing. Somehow always makes it to the final circle. Somehow never wins. Morale would collapse without him. So would the Discord server.",
     color: "#c9a84c",
   },
   {
-    tag: "zendii_.",
+    tag: "Zendii_",
     role: "The Strategist",
     emoji: "🗺️",
     desc: "Has a plan for every drop zone, every rotation, every engagement. Executes approximately zero of them. Very confident about it, though.",
     color: "#4a7c3f",
   },
   {
-    tag: "mixander",
+    tag: "Mixander",
     role: "The Driver",
     emoji: "🚗",
     desc: "Will drive the squad anywhere — into buildings, off bridges, directly into the blue zone. Navigation is a suggestion. Momentum is a lifestyle.",
     color: "#5865F2",
   },
   {
-    tag: "KurV",
+    tag: "KurrV",
     role: "The Loot Goblin",
     emoji: "🎒",
     desc: "Has 400 bandages, 200 energy drinks, and somehow zero ammo. Will spend 8 minutes looting a warehouse to die to a pan.",
