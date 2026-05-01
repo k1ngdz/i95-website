@@ -1,8 +1,8 @@
 const members = [
   { tag: "K1nG_DZ", emoji: "🧭" },
-  { tag: "Zendii_", emoji: "🩹" },
-  { tag: "Mixander", emoji: "🐢" },
   { tag: "KurrV", emoji: "📦" },
+  { tag: "Mixander", emoji: "🐢" },
+  { tag: "Zendii_", emoji: "🩹" },
 ];
 
 const trackers = [

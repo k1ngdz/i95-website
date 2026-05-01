@@ -9,11 +9,11 @@ const members = [
     color: "#c9a84c",
   },
   {
-    tag: "Zendii_",
-    role: "Founder · The Medic",
-    emoji: "🩹",
-    desc: "The only one who actually carries a medkit. Will heal you — eventually. Usually after you've already died, or mid-gunfight when you needed a revive ten seconds ago. Fully committed to keeping the squad alive, just never quite on time.",
-    color: "#4a7c3f",
+    tag: "KurrV",
+    role: "Founder · The Loot Goblin",
+    emoji: "📦",
+    desc: "Somehow first on site every time there's a level 3 vest nearby. Mid-firefight? Doesn't matter — there's a crate 200 meters away and he's already sprinting. Always has every attachment except the ones you need. The squad is getting third-partied and he's inspecting a suppressor.",
+    color: "#e05c5c",
   },
   {
     tag: "Mixander",
@@ -23,11 +23,11 @@ const members = [
     color: "#5865F2",
   },
   {
-    tag: "KurrV",
-    role: "Founder · The Loot Goblin",
-    emoji: "📦",
-    desc: "Somehow first on site every time there's a level 3 vest nearby. Mid-firefight? Doesn't matter — there's a crate 200 meters away and he's already sprinting. Always has every attachment except the ones you need. The squad is getting third-partied and he's inspecting a suppressor.",
-    color: "#e05c5c",
+    tag: "Zendii_",
+    role: "Founder · The Medic",
+    emoji: "🩹",
+    desc: "The only one who actually carries a medkit. Will heal you — eventually. Usually after you've already died, or mid-gunfight when you needed a revive ten seconds ago. Fully committed to keeping the squad alive, just never quite on time.",
+    color: "#4a7c3f",
   },
 ];
 
