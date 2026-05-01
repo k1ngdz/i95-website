@@ -1,7 +1,7 @@
 const members = [
   { tag: "K1nG_DZ", emoji: "🧭" },
   { tag: "KurrV", emoji: "📦" },
-  { tag: "Mixander", emoji: "🐢" },
+  { tag: "Mixander", emoji: "🗺️" },
   { tag: "Zendii_", emoji: "🩹" },
 ];
 
