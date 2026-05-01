@@ -26,7 +26,7 @@ const members = [
     tag: "KurrV",
     role: "Founder · The Loot Goblin",
     emoji: "🎒",
-    desc: "Has 400 bandages, 200 energy drinks, and somehow zero ammo. Will spend 8 minutes looting a warehouse to die to a pan.",
+    desc: "Somehow first on site every time there's a level 3 vest nearby. Mid-firefight? Doesn't matter — there's a crate 200 meters away and he's already sprinting. Always has every attachment except the ones you need. The squad is getting third-partied and he's inspecting a compensator.",
     color: "#e05c5c",
   },
 ];
