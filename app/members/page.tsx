@@ -26,7 +26,7 @@ const members = [
     tag: "KurrV",
     role: "Founder · The Loot Goblin",
     emoji: "🎒",
-    desc: "Somehow first on site every time there's a level 3 vest nearby. Mid-firefight? Doesn't matter — there's a crate 200 meters away and he's already sprinting. Always has every attachment except the ones you need. The squad is getting third-partied and he's inspecting a compensator.",
+    desc: "Somehow first on site every time there's a level 3 vest nearby. Mid-firefight? Doesn't matter — there's a crate 200 meters away and he's already sprinting. Always has every attachment except the ones you need. The squad is getting third-partied and he's inspecting a suppressor.",
     color: "#e05c5c",
   },
 ];
