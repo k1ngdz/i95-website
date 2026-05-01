@@ -5,7 +5,7 @@ const placeholderMatches = [
     date: "TBD",
     status: "upcoming",
     format: "Squad · TPP · Erangel",
-    participants: ["K1nG_DZ", "Zendii_", "Mixander", "KurrV"],
+    participants: ["K1nG_DZ", "KurrV", "Mixander", "Zendii_", "cea5ef1re"],
     winner: null,
   },
 ];

@@ -3,6 +3,7 @@ const members = [
   { tag: "KurrV", emoji: "📦" },
   { tag: "Mixander", emoji: "🗺️" },
   { tag: "Zendii_", emoji: "🩹" },
+  { tag: "cea5ef1re", emoji: "🎨" },
 ];
 
 const trackers = [

@@ -29,6 +29,13 @@ const members = [
     desc: "The only one who actually carries a medkit. Will heal you — eventually. Usually after you've already died, or mid-gunfight when you needed a revive ten seconds ago. Fully committed to keeping the squad alive, just never quite on time.",
     color: "#4a7c3f",
   },
+  {
+    tag: "cea5ef1re",
+    role: "Founder · The Albanian Mobster",
+    emoji: "🎨",
+    desc: "Nobody asked him to design the logo. Nobody had to. He showed up one day with a finished JPEG and a look that made it very clear saying no wasn't an option. Responsible for the entire visual identity of [I95]. What he does outside of PUBG is none of your business.",
+    color: "#c0392b",
+  },
 ];
 
 export default function MembersPage() {
