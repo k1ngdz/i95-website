@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const stats = [
   { label: "Active Members", value: "4" },
@@ -49,6 +50,17 @@ export default function Home() {
           }}
         />
         <div className="relative fade-in-up">
+          <div className="flex justify-center mb-6">
+            <Image
+              src="/i95pubg.jpg"
+              alt="I95 Clan Logo"
+              width={180}
+              height={180}
+              className="rounded-2xl shadow-2xl shadow-black/60 ring-2 ring-[#c9a84c]/30"
+              priority
+              unoptimized
+            />
+          </div>
           <p className="text-[#c9a84c] text-sm font-bold tracking-[0.3em] uppercase mb-4">
             PlayerUnknown&apos;s Battlegrounds
           </p>
