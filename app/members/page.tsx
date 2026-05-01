@@ -10,9 +10,9 @@ const members = [
   },
   {
     tag: "Zendii_",
-    role: "Founder · The Strategist",
+    role: "Founder · The Medic",
     emoji: "🗺️",
-    desc: "Has a plan for every drop zone, every rotation, every engagement. Executes approximately zero of them. Very confident about it, though.",
+    desc: "The only one who actually carries a medkit. Will heal you — eventually. Usually after you've already died, or mid-gunfight when you needed a revive ten seconds ago. Fully committed to keeping the squad alive, just never quite on time.",
     color: "#4a7c3f",
   },
   {
