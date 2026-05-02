@@ -44,10 +44,18 @@ export default function Navbar() {
             </Link>
           ))}
           <a
+            href="https://patreon.com/i95pubg"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="ml-3 px-4 py-2 rounded bg-[#FF424D] text-white text-sm font-semibold hover:bg-[#e0333e] transition-colors"
+          >
+            Donate
+          </a>
+          <a
             href="https://discord.gg/nZupsHQfRv"
             target="_blank"
             rel="noopener noreferrer"
-            className="ml-3 px-4 py-2 rounded bg-[#5865F2] text-white text-sm font-semibold hover:bg-[#4752c4] transition-colors"
+            className="ml-2 px-4 py-2 rounded bg-[#5865F2] text-white text-sm font-semibold hover:bg-[#4752c4] transition-colors"
           >
             Join Discord
           </a>

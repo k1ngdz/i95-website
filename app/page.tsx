@@ -88,6 +88,14 @@ export default function Home() {
             >
               Meet the Squad
             </Link>
+            <a
+              href="https://patreon.com/i95pubg"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-4 bg-[#FF424D] text-white font-bold rounded hover:bg-[#e0333e] transition-colors"
+            >
+              Support Us
+            </a>
           </div>
         </div>
 
