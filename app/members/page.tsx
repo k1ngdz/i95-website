@@ -62,19 +62,21 @@ export default function MembersPage() {
             style={{ borderTopColor: m.color, borderTopWidth: 3 }}
           >
             <div className="flex items-start gap-4">
-              <div
-                className="w-14 h-14 rounded-lg flex-shrink-0 overflow-hidden"
-                style={{ border: `2px solid ${m.color}44` }}
-              >
-                <Image
-                  src={m.img}
-                  alt={m.tag}
-                  width={56}
-                  height={56}
-                  className="w-full h-full object-cover"
-                  unoptimized
-                />
-              </div>
+              <a href={m.img} target="_blank" rel="noopener noreferrer" className="flex-shrink-0">
+                <div
+                  className="w-24 h-24 rounded-lg overflow-hidden hover:ring-2 transition-all duration-200"
+                  style={{ border: `2px solid ${m.color}44`, ["--tw-ring-color" as string]: m.color }}
+                >
+                  <Image
+                    src={m.img}
+                    alt={m.tag}
+                    width={96}
+                    height={96}
+                    className="w-full h-full object-cover"
+                    unoptimized
+                  />
+                </div>
+              </a>
               <div>
                 <h2 className="text-xl font-black text-white">{m.tag}</h2>
                 <p className="text-xs font-semibold uppercase tracking-widest mt-1" style={{ color: m.color }}>
