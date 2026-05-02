@@ -1,10 +1,11 @@
-import Link from "next/link";
+import Image from "next/image";
 
 const members = [
   {
     tag: "K1nG_DZ",
     role: "Founder · The Navigator",
     emoji: "🧭",
+    img: "/king.png",
     desc: "Always has a route to the final circle — usually straight through an enemy squad. Spends the whole match preaching patience and avoidance, then calls a rotation that drops the entire team into a hot zone. Gets us to the last circle more than anyone. Gets us killed there too.",
     color: "#c9a84c",
   },
@@ -12,6 +13,7 @@ const members = [
     tag: "KurrV",
     role: "Founder · The Loot Goblin",
     emoji: "📦",
+    img: "/kurv.png",
     desc: "Somehow first on site every time there's a level 3 vest nearby. Mid-firefight? Doesn't matter — there's a crate 200 meters away and he's already sprinting. Always has every attachment except the ones you need. The squad is getting third-partied and he's inspecting a suppressor.",
     color: "#e05c5c",
   },
@@ -19,6 +21,7 @@ const members = [
     tag: "Mixander",
     role: "Founder · The Lost One",
     emoji: "🗺️",
+    img: "/mix.png",
     desc: "Shows up to every gunfight right on time — if the fight started 45 seconds ago and everyone is already dead. The squad is screaming for backup, he responds 'on my way' from the other side of the map. Three of us are down, one is dead, and someone is yelling 'WHERE IS MIXANDER?!' He's en route. He's always en route. Arrives with full health, full energy, and absolutely no idea what just happened. Loots the bodies. Calls it a win.",
     color: "#5865F2",
   },
@@ -26,6 +29,7 @@ const members = [
     tag: "Zendii_",
     role: "Founder · The Medic",
     emoji: "🩹",
+    img: "/zendi.png",
     desc: "The only one who actually carries a medkit. Will heal you — eventually. Usually after you've already died, or mid-gunfight when you needed a revive ten seconds ago. Fully committed to keeping the squad alive, just never quite on time.",
     color: "#4a7c3f",
   },
@@ -33,6 +37,7 @@ const members = [
     tag: "cea5ef1re",
     role: "Founder · The Albanian Mobster",
     emoji: "🎨",
+    img: "/ceasefire.png",
     desc: "Nobody asked him to design the logo. Nobody had to. He showed up one day with a finished JPEG and a look that made it very clear saying no wasn't an option. Responsible for the entire visual identity of [I95]. What he does outside of PUBG is none of your business.",
     color: "#c0392b",
   },
@@ -58,10 +63,17 @@ export default function MembersPage() {
           >
             <div className="flex items-start gap-4">
               <div
-                className="w-14 h-14 rounded-lg flex items-center justify-center text-2xl flex-shrink-0"
-                style={{ background: `${m.color}22` }}
+                className="w-14 h-14 rounded-lg flex-shrink-0 overflow-hidden"
+                style={{ border: `2px solid ${m.color}44` }}
               >
-                {m.emoji}
+                <Image
+                  src={m.img}
+                  alt={m.tag}
+                  width={56}
+                  height={56}
+                  className="w-full h-full object-cover"
+                  unoptimized
+                />
               </div>
               <div>
                 <h2 className="text-xl font-black text-white">{m.tag}</h2>
