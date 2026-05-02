@@ -1,4 +1,6 @@
+"use client";
 import Image from "next/image";
+import { useState } from "react";
 
 const members = [
   {
@@ -44,6 +46,8 @@ const members = [
 ];
 
 export default function MembersPage() {
+  const [lightbox, setLightbox] = useState<{ img: string; tag: string } | null>(null);
+
   return (
     <div className="max-w-6xl mx-auto px-4 py-20">
       <div className="text-center mb-16">
@@ -62,7 +66,10 @@ export default function MembersPage() {
             style={{ borderTopColor: m.color, borderTopWidth: 3 }}
           >
             <div className="flex items-start gap-4">
-              <a href={m.img} target="_blank" rel="noopener noreferrer" className="flex-shrink-0">
+              <button
+                onClick={() => setLightbox({ img: m.img, tag: m.tag })}
+                className="flex-shrink-0 cursor-pointer"
+              >
                 <div
                   className="w-24 h-24 rounded-lg overflow-hidden hover:ring-2 transition-all duration-200"
                   style={{ border: `2px solid ${m.color}44`, ["--tw-ring-color" as string]: m.color }}
@@ -76,7 +83,7 @@ export default function MembersPage() {
                     unoptimized
                   />
                 </div>
-              </a>
+              </button>
               <div>
                 <h2 className="text-xl font-black text-white">{m.tag}</h2>
                 <p className="text-xs font-semibold uppercase tracking-widest mt-1" style={{ color: m.color }}>
@@ -108,6 +115,35 @@ export default function MembersPage() {
           Apply via Discord
         </a>
       </div>
+
+      {/* Lightbox */}
+      {lightbox && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm"
+          onClick={() => setLightbox(null)}
+        >
+          <div
+            className="relative max-w-lg w-full mx-4"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              onClick={() => setLightbox(null)}
+              className="absolute -top-10 right-0 text-white/60 hover:text-white text-sm font-medium transition-colors"
+            >
+              ✕ Close
+            </button>
+            <Image
+              src={lightbox.img}
+              alt={lightbox.tag}
+              width={512}
+              height={512}
+              className="w-full h-auto rounded-xl shadow-2xl"
+              unoptimized
+            />
+            <p className="text-center text-white/50 text-sm mt-3">{lightbox.tag}</p>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
